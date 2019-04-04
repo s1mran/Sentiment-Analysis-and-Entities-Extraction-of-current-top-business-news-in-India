@@ -29,7 +29,7 @@ def EntitiesOfInterest(sent):
     print s	
     
 for i in range(10): 
-		# printing sentiment scores of each news:
+	# printing entities of each news:
         print(str(i+1)+" "+titles[i])
         # entities of interest
         print("Entities of interest: ")
