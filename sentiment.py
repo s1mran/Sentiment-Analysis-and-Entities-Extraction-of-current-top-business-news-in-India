@@ -11,7 +11,7 @@ def result(sentence):
     print ("Sentiment Score: " + str(score['compound']) )	
     
 for i in range(10): 
-		# printing sentiment scores of each news:
+	# printing sentiment scores of each news:
         print(str(i+1)+" "+titles[i])
         # sentiment scores for this news is:
         result(descriptions[i])
