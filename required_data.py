@@ -3,7 +3,7 @@
 titles=[]
 
 # empty list which will 
-# contain all trending news description
+# contain all trending news articles' descriptions
 descriptions = [] 
 
 for ar in article: 
